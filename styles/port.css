@@ -180,13 +180,16 @@ main section {
 
 .resume-container {
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
+    /* justify-content: space-between; */
 }
 
-hr {
+.resume-container hr {
     width: 550px;
     height: 1px;
     background-color: #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .resume-column-title {
@@ -205,6 +208,8 @@ hr {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 .resumeitem-description {
@@ -212,4 +217,9 @@ hr {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+.downloadCV {
+    text-align: center;
+    margin-top: 50px;
 }
